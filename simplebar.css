@@ -117,7 +117,6 @@
   bottom: 0;
   pointer-events: none;
   overflow: hidden;
-  width: 8px;
 }
 
 [data-simplebar].simplebar-dragging .simplebar-content {
@@ -140,8 +139,9 @@
 .simplebar-scrollbar:before {
   position: absolute;
   content: '';
-  background: black;
-  border-radius: 7px;
+  background: #808080;
+  border-radius: 14px;
+  width: 8px;
   left: 2px;
   right: 2px;
   opacity: 0;
