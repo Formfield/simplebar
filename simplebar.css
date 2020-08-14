@@ -141,9 +141,8 @@
   content: '';
   background: #808080;
   border-radius: 14px;
-  width: 8px;
-  left: 2px;
-  right: 2px;
+  left: 4px;
+  right: 4px;
   opacity: 0;
   transition: opacity 0.2s linear;
 }
